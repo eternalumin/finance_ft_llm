@@ -21,7 +21,7 @@ import gradio as gr
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
-MODEL_PATH = os.environ.get("MODEL_PATH", "training/outputs/earnings-intelligence-v1")
+MODEL_PATH = os.environ.get("MODEL_PATH", "eternalumin/earnings-intelligence-3b")
 
 SYSTEM_PROMPT = """You are an expert financial analyst specializing in earnings call analysis. 
 Analyze the provided transcript and provide insights about company performance, beat/miss predictions, 

@@ -2,8 +2,8 @@
 
 ### Fine-tuned LLM for Financial Analysis: Beat/Miss Prediction, Q&A, and Metric Extraction
 
-[![HuggingFace Spaces](https://img.shields.io/badge/%F0%9F%A4%97-Demo-blue)](https://huggingface.co/spaces/YOUR_USERNAME/earnings-intelligence)
-[![Model](https://img.shields.io/badge/%F0%9F%A4%97-Model-blue)](https://huggingface.co/YOUR_USERNAME/earnings-intelligence-3b)
+[![HuggingFace Spaces](https://img.shields.io/badge/%F0%9F%A4%97-Demo-blue)](https://huggingface.co/spaces/eternalumin/earnings-intelligence)
+[![Model](https://img.shields.io/badge/%F0%9F%A4%97-Model-blue)](https://huggingface.co/eternalumin/earnings-intelligence-3b)
 [![Python](https://img.shields.io/badge/Python-3.10+-green)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)

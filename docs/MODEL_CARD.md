@@ -137,8 +137,8 @@
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model = AutoModelForCausalLM.from_pretrained("YOUR_USERNAME/earnings-intelligence-3b")
-tokenizer = AutoTokenizer.from_pretrained("YOUR_USERNAME/earnings-intelligence-3b")
+model = AutoModelForCausalLM.from_pretrained("eternalumin/earnings-intelligence-3b")
+tokenizer = AutoTokenizer.from_pretrained("eternalumin/earnings-intelligence-3b")
 
 transcript = "Apple today reported fiscal Q1 2024 revenue of $119.6 billion..."
 result = model.generate(transcript, task="beat_miss")
