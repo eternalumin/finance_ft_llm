@@ -1,0 +1,112 @@
+# =============================================================================
+# DATA - Never commit datasets (too large + privacy)
+# =============================================================================
+data/raw/
+data/processed/
+data/*.csv
+data/*.json
+data/*.jsonl
+data/*.parquet
+data/.cache/
+*.zip
+*.tar.gz
+
+# =============================================================================
+# MODELS - Store on HuggingFace Hub instead
+# =============================================================================
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/
+adapter_config.json  # Keep this if needed, but model weights should be on HF Hub
+
+# =============================================================================
+# SECRETS & API KEYS - NEVER commit
+# =============================================================================
+.env
+.env.*
+*.env
+.env.local
+api_key*
+API_KEY*
+secret*
+SECRET*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================================================
+# IDE & EDITOR
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =============================================================================
+# LOGS & OUTPUTS
+# =============================================================================
+logs/
+*.log
+wandb/
+tensorboard/
+runs/
+outputs/
+results/*.json
+results/*.csv
+results/*.png
+results/*.jpg
+
+# =============================================================================
+# COLAB SPECIFIC
+# =============================================================================
+drive/
+drive_link.txt
+*.colab
+
+# =============================================================================
+# GITHUB
+# =============================================================================
+.gh_token
+README_eval.md
